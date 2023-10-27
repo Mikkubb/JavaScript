@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="slider">
+        <div class="slides">
+        	<img src="http://picsum.photos/id/237/600/400" alt="">
+        	<img src="http://picsum.photos/id/238/600/400" alt="">
+        	<img src="http://picsum.photos/id/239/600/400" alt="">
+        	<img src="http://picsum.photos/id/240/600/400" alt="">
+        	<img src="http://picsum.photos/id/241/600/400" alt="">
+        	<img src="http://picsum.photos/id/242/600/400" alt="">
+        </div>
+    </div>
+    <div class="btn">
+        <input type="button" id="prev" onclick="prev(), resetInterval()" value="Wstecz">
+            <input type="button" class="nBtn" onclick="changeImage(0), resetInterval()" value="1">
+            <input type="button" class="nBtn" onclick="changeImage(600), resetInterval()" value="2">
+            <input type="button" class="nBtn" onclick="changeImage(1200), resetInterval()" value="3">
+            <input type="button" class="nBtn" onclick="changeImage(1800), resetInterval()" value="4">
+            <input type="button" class="nBtn" onclick="changeImage(2400), resetInterval()" value="5">
+            <input type="button" class="nBtn" onclick="changeImage(3000), resetInterval()" value="6">
+        <input type="button" id="next" class="nBtn" onclick="next(), resetInterval()" value="Dalej">
+    </div>
+    <div class="btn">
+        <input type="button" id="pause" class="nBtn" onclick="stopStart(1)" value="Pauza">
+        <input type="button" id="play" class="nBtn" onclick="stopStart(0)" value="Wznów">
+    </div>
+    <main>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
