@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <audio src="./sounds/clap.wav" id="s1"></audio>
+    <audio src="./sounds/hihat.wav" id="s2"></audio>
+    <audio src="./sounds/boom.wav" id="s3"></audio>
+    <audio src="./sounds/kick.wav" id="s4"></audio>
+    <audio src="./sounds/openhat.wav" id="s5"></audio>
+    <audio src="./sounds/ride.wav" id="s6"></audio>
+    <audio src="./sounds/snare.wav" id="s7"></audio>
+    <audio src="./sounds/tink.wav" id="s8"></audio>
+    <audio src="./sounds/tom.wav" id="s9"></audio>
+    <script src="drumkit.js"></script>
+
+    <div id="box">
+    <div id="a" class="character" >A<div class="captions">CLAP</div></div>
+    <div id="s" class="character" >S<div class="captions">HIHAT</div></div>
+    <div id="d" class="character" >D<div class="captions">BOOM</div></div>
+    <div id="f" class="character" >F<div class="captions">KICK</div></div>
+    <div id="g" class="character" >G<div class="captions">OPENHAT</div></div>
+    <div id="h" class="character" >H<div class="captions">RIDE</div></div>
+    <div id="j" class="character" >J<div class="captions">SNARE</div></div>
+    <div id="k" class="character" >K<div class="captions">TINK</div></div>
+    <div id="l" class="character" >L<div class="captions">TOM</div></div>
+    </div>
+
+    </br>
+    <span class="text">CHANNEL 1:
+    <input type="button" class="record" value="RECORD" onclick="startRecording(1)">
+    <input type="button" class="play" value="PLAY" onclick="playChannel(1)">
+    <input type="button" class="stop" value="STOP RECORDING" onclick="stopRecording(1)">
+    </span>
+    <span class="text">CHANNEL 2:
+        <input type="button" class="record" value="RECORD" onclick="startRecording(2)">
+        <input type="button" class="play" value="PLAY" onclick="playChannel(2)">
+        <input type="button" class="stop" value="STOP RECORDING" onclick="stopRecording(2)">
+    </span>
+    <span class="text">CHANNEL 3:
+        <input type="button" class="record" value="RECORD" onclick="startRecording(3)">
+        <input type="button" class="play" value="PLAY" onclick="playChannel(3)">
+        <input type="button" class="stop" value="STOP RECORDING" onclick="stopRecording(3)">
+    </span>
+    <span class="text">CHANNEL 4:
+        <input type="button" class="record" value="RECORD" onclick="startRecording(4)">
+        <input type="button" class="play" value="PLAY" onclick="playChannel(4)">
+        <input type="button" class="stop" value="STOP RECORDING" onclick="stopRecording(4)">
+    </span>
+    <input type="button" class="pac" value="PLAY ALL CHANNEL" onclick="playAllChannel()">
+</body> 
+</html>
