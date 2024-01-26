@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notekeep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="note">
+        <h2>ADD NEW NOTE</h2>
+        <form id="addNote">
+            <div>
+                <input class="title" type="text" placeholder="Title" required>
+            </div>
+        </br>
+            <div>
+                <textarea class="content" placeholder="Content" required></textarea>
+            </div>
+        </br>
+            <div>
+                <label>Note Color:</label>
+                <input type="color" class="color" value="#ffffff" />
+            </div>
+        </br>
+            <div>
+                <label>Pin: </label>
+                <input type="checkbox" id="pin" class="pin"/>
+            </div>
+        </br>
+            <button class="btn-submit" id="submit">Add Note</button>
+        </br>
+        </form>
+    </div>
+    <div class="container" id="container"></div>
+    <script src="main.js"></script>
+</body>
+</html>
