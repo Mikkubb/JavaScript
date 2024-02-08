@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Ukrywa przewijanie strony */
+  }
+  
+#menu {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 999; /* Zapobieganie nakładania się elementów */
+}
+  
+canvas {
+  display: block; /* Canvas zajmie całą dostępną szerokość */
+}
+
+#menu label{
+  font-weight: bold;
+}

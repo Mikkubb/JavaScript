@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <label for="numberBallsInput">Liczba kulek:</label>
+    <input type="number" id="numberBallsInput" value="100" min="1">
+    <label for="minDistanceInput">Odległość między kulkami:</label>
+    <input type="number" id="minDistanceInput" value="50" min="1">
+    <button id="startButton">Start</button>
+    <button id="resetButton">Reset</button>
+  </div>
+  <!-- Utworzenie obszaru canvas -->
+  <canvas id="Canvas"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
