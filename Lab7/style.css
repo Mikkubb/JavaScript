@@ -1,0 +1,54 @@
+.note {
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #0990daca;
+}
+
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weather {
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.location{
+    text-align: center;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+
+#weatherNoteContent{
+    display: inline-block;
+}
+
+.bld{
+    font-weight: bold;
+}
+
+.deleteBtn{
+    text-align: center;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
